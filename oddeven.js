@@ -7,5 +7,5 @@ function oddEven(arr){
   }
 }
 
-let randomNumbers = Array.from({ length: 100}, () => (Math.floor(Math.random() * 100)));
+let randomNumbers = Array.from({ length: 100}, () => (Math.ceil(Math.random() * 100)));
 oddEven(randomNumbers);
