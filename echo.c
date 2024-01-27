@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 main(){
-  char c = "meta";
-  putchar(c);
+  int c;
+  while ((c = getchar()) != EOF)
+    putchar(c);
 }
